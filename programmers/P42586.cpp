@@ -44,26 +44,3 @@ vector<int> solution(vector<int> progresses, vector<int> speeds) {
     
     return answer;
 }
-
-int main() {
-    vector<int> progresses;
-    vector<int> speeds;
-    
-    progresses.push_back(40);
-    progresses.push_back(93);
-    progresses.push_back(30);
-    progresses.push_back(55);
-    progresses.push_back(60);
-    progresses.push_back(65);
-
-    speeds.push_back(60);
-    speeds.push_back(1);
-    speeds.push_back(30);
-    speeds.push_back(5);
-    speeds.push_back(10);
-    speeds.push_back(7);
-
-    solution(progresses, speeds);
-
-    return 0;
-}
