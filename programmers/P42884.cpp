@@ -20,6 +20,7 @@ int solution(vector<vector<int> > routes) {
             count++;
             end = routes[i][1];
         }
+        
         if (routes[i][1] < end) {
             end = routes[i][1];
         }
