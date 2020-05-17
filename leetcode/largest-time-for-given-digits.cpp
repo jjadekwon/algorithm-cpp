@@ -4,7 +4,6 @@
 #include <string>
 #include <vector>
 #include <queue>
-#include <iostream>
 
 using namespace std;
 
@@ -26,14 +25,3 @@ public:
         return max;
     }
 };
-
-int main() {
-    Solution s;
-    vector<int> A;
-    A.push_back(5);
-    A.push_back(5);
-    A.push_back(5);
-    A.push_back(5);
-    s.largestTimeFromDigits(A);
-    return 0;
-}
