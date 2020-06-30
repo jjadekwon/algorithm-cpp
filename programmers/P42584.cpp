@@ -18,6 +18,6 @@ vector<int> solution(vector<int> prices) {
 
         answer.push_back(minutes);
     }
-
+ 
     return answer;
 }
